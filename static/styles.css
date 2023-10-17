@@ -136,6 +136,13 @@ nav ul li a {
     color: #000; /* Text color */
     margin-bottom: 20px;
 }
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    
+}
 form {
     max-width: 400px;
     margin: 0 auto;
