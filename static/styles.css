@@ -312,3 +312,7 @@ footer {
 .banner-linkcopy a:hover {
     color: #000;
 }
+.image img{
+float: right;
+
+}
