@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 /* Banner section */
 #banner {
     background-image: url('/static/images/banner.jpg');
@@ -156,10 +157,10 @@ nav ul li a {
 
 /* Form styling */
 form {
-    max-width: 400px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #f2f5f8;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -195,7 +196,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #091eda;
+    background-color: #e62a09;
 }
 
 /* Form heading and paragraphs */
@@ -208,11 +209,17 @@ input[type="submit"]:hover {
 }
 
 .form p {
+    text-decoration: dotted;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
     font-size: 20px;
     line-height: 1.5;
-    color: #000;
-    margin-bottom: 20px;
+    color: #cf0a0a;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /* Footer section */
@@ -231,8 +238,8 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer-content h3 {
-    font-size: 18px;
+.footer-content h2 {
+    font-size: 25px;
 }
 
 .quick-links li {
@@ -253,7 +260,12 @@ footer {
 }
 
 .footer-bottom p {
+    font-size: 20px;
     margin: 0;
+}
+.footer-right {
+
+
 }
 
 /* Image containers */
@@ -315,4 +327,108 @@ footer {
 .image img{
 float: right;
 
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #051df3;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #145979;
+    color: white;
+  }
+  .fa-youtube {
+    background: #cf0505;
+    color: white;
+  }
+  .fa-instagram {
+    background: #940481;
+    color: white;
+  }
+
+
+/* Style for the footer section */
+footer {
+    background-color: #000; /* Black background color */
+    color: #fff; /* Text color */
+    padding: 20px 0; /* Padding for spacing */
+}
+
+/* Style for the footer content container */
+.footer-content {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap content to a new line on smaller screens */
+}
+
+/* Style for the "Quick Links" section on the left */
+.footer-center {
+    text-align: center; /* Center the content horizontally */
+}
+
+/* Style for the "Connect with me on social media" section on the right */
+.footer-right {
+    text-align: right; /* Align text to the right */
+}
+
+/* Style for the social media links */
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline; /* Display social icons horizontally */
+    margin-right: 10px; /* Spacing between social icons */
+}
+
+.social-icons a {
+    color: #fff; /* Icon color */
+    text-decoration: none;
+    font-size: 20px; /* Adjust the icon size as needed */
+}
+
+/* Style for Font Awesome icons (adjust the icon classes as needed) */
+.fa {
+    display: inline-block;
+    margin-right: 10px; /* Spacing between icons */
+}
+
+/* Media query to adjust styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+    }
+    .footer-center {
+        text-align: center; /* Center "Quick Links" on smaller screens */
+    }
+    .footer-right {
+        text-align: center; /* Center "Connect with me on social media" on smaller screens */
+        margin-top: 20px; /* Add space between "Quick Links" and social media links */
+    }
 }
