@@ -26,3 +26,8 @@ This is a form that users can fill and content of the form will be sent to my da
 
 # Demo video of this project 
 Here is a link to the [demo video]()
+
+## Contact Information:
+Phone: +2348103096531
+Email: amakuez@gmail.com
+Twitter: @big_kuez
