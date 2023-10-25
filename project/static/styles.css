@@ -212,7 +212,7 @@ input[type="submit"]:hover {
     text-decoration: dotted;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+    font-style: normal ;
     font-weight: bold;
     font-size: 20px;
     line-height: 1.5;
@@ -271,6 +271,7 @@ footer {
 /* Image containers */
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 20vh;
@@ -278,7 +279,7 @@ footer {
 
 .container .box {
     flex: 1;
-    border: 1px solid #ccc;
+    border: 0;
     padding: 10px;
     text-align: center;
 }
@@ -287,10 +288,30 @@ footer {
     max-width: 100%;
     max-height: 100%;
 }
+.box a{
+   font-weight: bold;
+   font-size: 40px;
+   text-decoration: underline;
+   margin-top: 10px;
+   padding-top: 10px;
+   color: #11b0bb;
+}
+.box p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: 100;
+    color: #cf0a0a;
+    text-decoration: solid;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
 
 /* Additional banner link copy style */
 .banner-linkcopy {
     margin: 0 auto;
+    color: #071983;
+    background-color: #bb2a11;
 }
 
 .banner-linkcopy a {
@@ -300,10 +321,12 @@ footer {
     margin: 0;
     padding: 10px 0;
     color: #040404;
-    border: .5px solid #8715e4;
+    border: .5px solid #fff;
     position: relative;
     z-index: 1;
     transition: color 0.5s;
+    font-size: large;
+    font-weight: bold;
 }
 
 .banner-linkcopy a span {
@@ -431,4 +454,22 @@ footer {
         text-align: center; /* Center "Connect with me on social media" on smaller screens */
         margin-top: 20px; /* Add space between "Quick Links" and social media links */
     }
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1vh; /* Adjust the height as needed */
+}
+
+.blue-button {
+    background-color: #11057a;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.blue-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
