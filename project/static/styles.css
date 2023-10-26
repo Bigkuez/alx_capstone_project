@@ -459,7 +459,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1vh; /* Adjust the height as needed */
+    height: 1vh; /* height as needed */
 }
 
 .blue-button {
